@@ -3,7 +3,7 @@ id: template-deploy
 metadata:
   description: Deploy to account template
   name: deploy to account
-  owner: sample@sample.com
+  owner: ashaikh@starbucks.com
   scopes: 
     - global
 protect: false
@@ -42,9 +42,9 @@ stages:
         envVars: []
         imageDescription:
           account: dockerhub
-          imageId: "index.docker.io/spinnaker/workshop-demo:{{ deployTag }}"
-          registry: index.docker.io
-          repository: spinnaker/workshop-demo
+          imageId: "s00502nacrc3po.azurecr.io/azure-vote-front:{{ deployTag }}"
+          registry: s00502nacrc3po.azurecr.io
+          repository: azure-vote-front
           tag: "{{ deployTag }}"
         imagePullPolicy: ALWAYS
         limits: {}
