@@ -11,9 +11,9 @@ configuration:
   concurrentExecutions:
     limitConcurrent: true
   triggers:
-  - account: dockerhub
+  - account: s00502nacrc3po
     enabled: true
-    name: s00502nacrc3po
+    name: dockertrigger
     organization: 
     registry: s00502nacrc3po.azurecr.io
     repository: azure-vote-front
