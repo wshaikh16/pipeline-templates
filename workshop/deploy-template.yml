@@ -14,14 +14,14 @@ configuration:
   - account: dockerhub
     enabled: true
     name: dockertrigger
-    organization: spinnaker
-    registry: index.docker.io
-    repository: spinnaker/workshop-demo
+    organization: 
+    registry: s00502nacrc3po.azurecr.io
+    repository: azure-vote-front
     type: docker
 variables:
 - name: deployAccount
   description: The account where the application will be deployed to
-  defaultValue: workshop
+  defaultValue: C3PO-AKS-WESTUS-DEV
 - name: deployStack
   description: The stack to deploy to
   defaultValue: dev
