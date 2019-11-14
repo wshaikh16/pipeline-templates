@@ -13,7 +13,7 @@ configuration:
   triggers:
   - account: dockerhub
     enabled: true
-    name: dockertrigger
+    name: s00502nacrc3po
     organization: 
     registry: s00502nacrc3po.azurecr.io
     repository: azure-vote-front
